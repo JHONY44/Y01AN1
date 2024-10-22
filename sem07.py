@@ -12,13 +12,14 @@ def mostrar_menu():
 
     if seleccion == "archivo":
             st.write("seleccionaste: archivo")
-        elif seleccion =="editar":
+    elif seleccion =="editar":
             st.write("seleccionaste: editar")
-        elif seleccion =="ver":
+        
+    elif seleccion =="ver":
             st.write("seleccionaste: ver")
-        elif seleccion=="salir":
+    elif seleccion=="salir":
             st.write("!SALIENDO DEL MENU¡")
-            break
+        break
 
 if__name__=="__main__":
     mostrar_menu()
