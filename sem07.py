@@ -21,3 +21,4 @@ def mostrar_menu():
             break
 
 if__name__=="__main__":
+    mostrar_menu()
