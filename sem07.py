@@ -19,7 +19,7 @@ def mostrar_menu():
             st.write("seleccionaste: ver")
     elif seleccion=="salir":
             st.write("!SALIENDO DEL MENU¡")
-        break
+    
 
 if__name__=="__main__":
     mostrar_menu()
