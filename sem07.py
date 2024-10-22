@@ -7,10 +7,9 @@ def mostrar_menu():
     menu_["archivo","editar", "ver", "salir"]
     seleccion =""
 
-
     seleccion=st.radio("menu", menu)
 
-        if seleccion=="archivo":
+        if seleccion == "archivo":
             st.write("seleccionaste: archivo")
         elif seleccion =="editar":
             st.write("seleccionaste: editar")
