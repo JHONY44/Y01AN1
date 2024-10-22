@@ -12,7 +12,7 @@ def verificar_automoviles():
     puntos = st.number_input("ingrese los puntos contaminantes del automovil", min_value=0.0, step= 0.1 )
 
     #boton para registrar el automovil
-    if st.button("registrar automovil")
+    if st.button("registrar automovil"):
         st.session_state.puntos_contaminantes.append(puntos)
         st.success(f"automovil registrado con {puntos} puntos contaminantes.")
     
